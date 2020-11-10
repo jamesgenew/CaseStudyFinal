@@ -1,0 +1,26 @@
+@charset "ISO-8859-1";
+/*CSS to add background color, alter table borders, manage size and position of the image on the index page, and 
+center the publisher name as well as change its font */
+body {
+  background-color: #ccffff;
+}
+
+table, td, th {
+  border: 2px solid black;
+}
+
+#bookimg {
+	display: block;
+    max-width:50%;
+	max-height:50%;
+	margin: auto;
+	padding: 10px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#pubname{
+	text-align: center;
+	font-family:'Courier New';
+}
